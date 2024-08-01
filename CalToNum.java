@@ -33,6 +33,6 @@ public class CalToNum {
           System.out.println("The difference between " + num1 + " -" + num2 + " = " + result);
            break; 
            default: System.err.println("that's not 1, 2, 3, or 4!");
-         } 
-        } 
-        }
+              } 
+            } 
+          }
