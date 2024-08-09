@@ -1,13 +1,17 @@
+import java.util.Scanner;
+
 public class Ex5_3 {
-    public static void main(String[] args) {
-        int multiplier = 8;
-        
-        System.out.println("ตารางสูตรคูณของแม่ 8 คือ:");
-        for (int i = 1; i <= 10; i++) {
-            int result = multiplier * i;
-            System.out.println(multiplier + " x " + i + " = " + result);
+     
+        public static void main(String[] args) {
+            java.util.Scanner scanner = new Scanner(System.in);
+    
+            System.out.print("Enter the first number : ");
+            int number1 = scanner.nextInt();
+    
+            System.out.print("Enter the first number : ");
+            int number2 = scanner.nextInt();
+    
+            System.out.println("The maximum value is : " +Math.max(number1, number2));
+            scanner.close();
         }
     }
-}
-
-
